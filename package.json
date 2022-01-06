@@ -1,10 +1,33 @@
 {
+  "name": "whatsup",
+  "version": "1.0.0",
+  "description": "End to end encrypted chatrooms",
+  "main": "snowpack.config.mjs",
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "autoprefixer": "^10.4.1",
+    "postcss": "^8.4.5",
+    "snowpack": "^3.3.7",
+    "tailwindcss": "^3.0.11"
+  },
+  "dependencies": {
+    "gun": "^0.2020.1235",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+    "build": "snowpack build"
   },
-  "devDependencies": {
-    "snowpack": "^3.3.7"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rana1805/whatsup.git"
+  },
+  "author": "Shubhanshu Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rana1805/whatsup/issues"
+  },
+  "homepage": "https://github.com/Rana1805/whatsup#readme"
 }
